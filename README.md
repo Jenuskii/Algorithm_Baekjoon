@@ -1,3 +1,1 @@
-# python_tutorial
-python_tutorial
-jenuskii317@gmail.com
+Algorithm quiz from https://www.acmicpc.net/
