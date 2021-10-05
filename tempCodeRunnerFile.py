@@ -1,2 +1,3 @@
-#풀이3 eval, replace 함수
-print(eval(input().replace(' ','+')))
+
+#풀이2
+print(map(int, input().split))
