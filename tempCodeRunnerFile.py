@@ -1,3 +1,2 @@
-
-#풀이2
-print(map(int, input().split))
+n = i = int(input())
+exec(f'print(n, "*", i//n, "=", i); i+=n;' * 9)

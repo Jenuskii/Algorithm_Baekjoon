@@ -15,4 +15,12 @@
 0
 0
 '''
+a, b, c = map(int, input().split())
+print((a+b) % c)
+print(((a%c)+(b%c)) % c)
+print((a*b) % c)
+print(((a%c)*(b%c)) % c)
 
+#다른 풀이, 대입 표현식 구문(바다코끼리 연산자 :=) 코드는 더 짧지만 속도는 불리함
+a,b,c=map(int,input().split())
+print(x:=(a+b)%c,x,y:=a*b%c,y,sep='\n')
