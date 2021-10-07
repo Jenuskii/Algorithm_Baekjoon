@@ -1,2 +1,1 @@
-n = i = int(input())
-exec(f'print(n, "*", i//n, "=", i); i+=n;' * 9)
+[print(i) for i in range(1,int(input())+1)]
