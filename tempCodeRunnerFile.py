@@ -1,2 +1,3 @@
-a = [*open(0)]
-[print(f'Case #{i+1}: {sum(map(int, a[i+1].split()))}') for i in range(int(a[0]))]
+n,x,*a=map(int,open(0).read().split())
+for i in a:
+    i<x!=print(i)
