@@ -1,2 +1,2 @@
-a = [10, 9, 7, 55, 30]
-print(*a)
+r=range(9999)
+print(*sorted({*r}-{n+sum(map(int,str(n)))for n in r}))
