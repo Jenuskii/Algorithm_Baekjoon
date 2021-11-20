@@ -1,1 +1,1 @@
-print(str(['aa', 'bb', 'cc']))
+c=input().count;print(c('')-1-sum(map(c,['-','=','nj','lj','dz='])))
