@@ -1,6 +1,5 @@
 # https://www.acmicpc.net/problem/2775
 
-
 # 처음 풀이(시간초과)
 # def function(k,n):
 #     if k == 0:
@@ -44,6 +43,11 @@ for case in range(int(stdin.readline())):
     print(function(int(stdin.readline()), int(stdin.readline())))
 
 
-
+## 다른 유저 숏코딩 -> 조합, 함수(클래스)별칭
+import math
+i=input
+for n in[int]*int(i()):
+    k=n(i())
+    print(math.comb(k+n(i()),k+1))
 
 
