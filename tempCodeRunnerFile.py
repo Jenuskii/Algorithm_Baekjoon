@@ -1,1 +1,7 @@
-c=input().count;print(c('')-1-sum(map(c,['-','=','nj','lj','dz='])))
+
+n=int(input())
+a=0
+while n>0:
+    a+=1
+    n-=a
+print("%d/%d"%(1-n,a+n)[::a%2*2-1])
