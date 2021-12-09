@@ -24,7 +24,7 @@ def Sieve_of_Eratosthenes(n):
     sieve = [False, False] + [True]*(n-1)
     for i in range(2,int(n**0.5)+1):
         if sieve[i]:
-            sieve[2*i::i] = [False] * len(sieve[2*i::i])
+            sieve[2*i::i] = [False] * ((n // i) - 1)
     return [i for i in range(2,n+1) if sieve[i]]
 
 m,n = map(int,input().split())
